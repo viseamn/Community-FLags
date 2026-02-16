@@ -1,0 +1,163 @@
+[
+  {
+    "name": "FPS Boost Ultra",
+    "author": "TestUser",
+    "description": "Maximizes FPS by disabling shadows and reducing rendering quality.",
+    "flags": [
+        {
+            "name": "DebugSkyGray",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TextureCompositorActiveJobs",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderShadowmapBias",
+            "value": "75",
+            "type": "int"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL34",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL23",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL12",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TerrainArraySliceSize",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceControlTextureQualityBestUtility",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "RenderUseTextureManager224",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "IncludePowerSaverMode",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePowerTraceModule",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugForceFSMCPULightCulling",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DoNotSkipMipsBasedOnSystemMemoryPS",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugLimitMinTextureResolutionWhenSkipMips",
+            "value": "9999999",
+            "type": "int"
+        },
+        {
+            "name": "TM2SkipMipsForUnstreamable2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugTextureManagerSkipMips",
+            "value": "10",
+            "type": "int"
+        },
+        {
+            "name": "TextureQualityOverride",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TextureQualityOverrideEnabled",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TaskSchedulerTargetFps",
+            "value": "9999999",
+            "type": "int"
+        },
+        {
+            "name": "TaskSchedulerLimitTargetFpsTo2402",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDisplayFPS",
+            "value": "True",
+            "type": "bool"
+        }
+    ]
+  },
+  {
+    "name": "Network Fixer",
+    "author": "TestUser",
+    "description": "Optimizes network settings for lower ping and stable connection.",
+    "flags": [
+      {
+        "name": "DFIntConnectionMTU",
+        "value": "1350",
+        "type": "int"
+      },
+      {
+        "name": "FFlagNetworkRakNetBandwidthPing",
+        "value": "True",
+        "type": "bool"
+      },
+      {
+        "name": "DFIntRakNetResendBufferBytes",
+        "value": "128000",
+        "type": "int"
+      }
+    ]
+  },
+  {
+    "name": "High Quality Graphics",
+    "author": "TestUser",
+    "description": "Enables future lighting and high-quality rendering (High-end PC required).",
+    "flags": [
+      {
+        "name": "FFlagDebugForceFutureIsBrightPhase3",
+        "value": "True",
+        "type": "bool"
+      },
+      {
+        "name": "DFFlagDebugRenderForceTechnologyVoxel",
+        "value": "False",
+        "type": "bool"
+      },
+      {
+        "name": "FFlagDebugForceFutureIsBrightPhase2",
+        "value": "True",
+        "type": "bool"
+      }
+    ]
+  }
+]
