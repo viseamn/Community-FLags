@@ -1,6 +1,6 @@
 [
   {
-    "name": "FPS Boost Ultra",
+    "name": "No Textures",
     "author": "TestUser",
     "description": "Maximizes FPS by disabling shadows and reducing rendering quality.",
     "flags": [
@@ -114,50 +114,6 @@
             "value": "True",
             "type": "bool"
         }
-    ]
-  },
-  {
-    "name": "Network Fixer",
-    "author": "TestUser",
-    "description": "Optimizes network settings for lower ping and stable connection.",
-    "flags": [
-      {
-        "name": "DFIntConnectionMTU",
-        "value": "1350",
-        "type": "int"
-      },
-      {
-        "name": "FFlagNetworkRakNetBandwidthPing",
-        "value": "True",
-        "type": "bool"
-      },
-      {
-        "name": "DFIntRakNetResendBufferBytes",
-        "value": "128000",
-        "type": "int"
-      }
-    ]
-  },
-  {
-    "name": "High Quality Graphics",
-    "author": "TestUser",
-    "description": "Enables future lighting and high-quality rendering (High-end PC required).",
-    "flags": [
-      {
-        "name": "FFlagDebugForceFutureIsBrightPhase3",
-        "value": "True",
-        "type": "bool"
-      },
-      {
-        "name": "DFFlagDebugRenderForceTechnologyVoxel",
-        "value": "False",
-        "type": "bool"
-      },
-      {
-        "name": "FFlagDebugForceFutureIsBrightPhase2",
-        "value": "True",
-        "type": "bool"
-      }
     ]
   }
 ]
