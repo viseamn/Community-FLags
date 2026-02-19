@@ -1617,5 +1617,607 @@
             "type": "bool"
         }
     ]
-  }
+  },
+  {
+    "name": "FPS BOOST",
+    "author": "van",
+    "description": "FPS BOOST FOR POTATO",
+    "flags": [
+        {
+            "name": "TextureCompositorActiveJobs",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderShadowmapBias",
+            "value": "75",
+            "type": "int"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL34",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL23",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL12",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TerrainArraySliceSize",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceControlTextureQualityBestUtility",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "RenderUseTextureManager224",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "IncludePowerSaverMode",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePowerTraceModule",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugForceFSMCPULightCulling",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DoNotSkipMipsBasedOnSystemMemoryPS",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugLimitMinTextureResolutionWhenSkipMips",
+            "value": "9999999",
+            "type": "int"
+        },
+        {
+            "name": "TM2SkipMipsForUnstreamable2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugTextureManagerSkipMips",
+            "value": "8",
+            "type": "int"
+        },
+        {
+            "name": "TextureQualityOverride",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TextureQualityOverrideEnabled",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TaskSchedulerTargetFps",
+            "value": "2222",
+            "type": "int"
+        },
+        {
+            "name": "TaskSchedulerLimitTargetFpsTo2402",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDisplayFPS",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugSkyGray",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "HandleAltEnterFullscreenManually",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugPauseVoxelizer",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugPerfMode",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FastGPULightCulling3",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "S2PhysicsSenderRate",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "ClientLightingTechnologyChangedTelemetryHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CrashUploadToBacktraceBaseUrl",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "CrashUploadToBacktraceMacPlayerToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "CrashUploadToBacktraceWindowsPlayerToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "BrowserTrackerIdTelemetryEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RobloxAnalyticsURL",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "TelemetryV2Url",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "LightstepHTTPTransportUrlHost",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "LightstepHTTPTransportUrlPath",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "LightstepToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "HttpPointsReporterUrl",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "AltHttpPointsReporterUrl",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "ConnectionMTUSize",
+            "value": "1200",
+            "type": "int"
+        },
+        {
+            "name": "RakNetResendBufferArrayLength",
+            "value": "1000",
+            "type": "int"
+        },
+        {
+            "name": "RakNetResendRttMultiple",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugFRMQualityLevelOverride",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "FRMMinGrassDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FRMMaxGrassDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MaxFrameBufferSize",
+            "value": "10",
+            "type": "int"
+        },
+        {
+            "name": "RobloxGuiBlurIntensity",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PhysicsMemoryTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TrackerPerfTelemetryIncludePerfData",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GameBasicSettingsFramerateCap5",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "CanHideGuiGroupId",
+            "value": "32380007",
+            "type": "int"
+        },
+        {
+            "name": "MeshCompressionTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetMtuValue1InBytes",
+            "value": "900",
+            "type": "int"
+        },
+        {
+            "name": "AvatarFacechatReplOverRCCTelemetryEventRateSec",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugCheckRenderThreading",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugAssertTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PercentileTelemetryHundredPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CLI46794SendToTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AMPVerifiedTelemetryPointsHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DataSenderRate",
+            "value": "4",
+            "type": "int"
+        },
+        {
+            "name": "TerrainMaterialTablePre2022",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "name": "RenderingThrottleDelayInMS",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DisableDPIScale",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "PercentApiRequestsRecordGoogleAnalytics",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuauRefinementTelemetryInfluxHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceControlEventBasedTelemetryDefaultSamplingRatePoints",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ReportOutputDeviceWithRobloxTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AvatarFacechatLODCameraDisableTelemetryThrottleHundrethsPercent",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "MaxProcessPacketsStepsPerCyclic",
+            "value": "5000",
+            "type": "int"
+        },
+        {
+            "name": "EnablePerfDataGatherTelemetry2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderDebugCheckThreading2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DataSenderMaxBandwidthBps",
+            "value": "555",
+            "type": "int"
+        },
+        {
+            "name": "MaxProcessPacketsJobScaling",
+            "value": "64",
+            "type": "int"
+        },
+        {
+            "name": "AppConfigurationTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableQuickGameLaunch",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "WaitOnUpdateNetworkLoopEndedMS",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "TerrainMaterialTable2022",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "name": "FixHumanoidStateTypeNameNullTelemetryCrash",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "VoiceChatVolumeThousandths",
+            "value": "6000",
+            "type": "int"
+        },
+        {
+            "name": "TaskSchedulerThreadMin",
+            "value": "3",
+            "type": "int"
+        },
+        {
+            "name": "LongAvatarAssetTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ClientLightingTechnologyChangedTelemetryTrackTimeSpent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "KeyRingUsingDynamicConfigTelemetryInfluxHundredths",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetClockDriftAdjustmentPerPingMillisecond",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "DisableFastLogTelemetry",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugForceMSAASamples",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "LoadStreamAnimationFailureTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CLI46794SendInputTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "HSRClusterSymmetryDistancePercent",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "LuauRefinementTelemetryInfluxPriorityHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CodecMaxIncomingPackets",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "PerformanceControlEventBasedTelemetryRateLimiterDefaultRegen",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AnimatorTelemetryCollectionRate",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AvatarFacechatPipelineLodTelemetryThrottleHundrethsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AMPVerifiedTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "BrowserTrackerIdTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MegaReplicatorNetworkQualityProcessorUnit",
+            "value": "10",
+            "type": "int"
+        },
+        {
+            "name": "AvatarChatServiceTelemetryIncludeServerFeatures",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MaxProcessPacketsStepsAccumulated",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "IkControlTelemetryEventsThrottleHundrethsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "KeyRingUsingDynamicConfigTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CurveMarkerCheckerTelemetryEventsThrottleHundrethsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuauHeapProfilerTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDisableTelemetryAfterTest",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugEnableRomarkMicroprofilerTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableClickToMoveUsageTelemetry2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LargePacketQueueSizeCutoffMB",
+            "value": "1000",
+            "type": "int"
+        },
+        {
+            "name": "EnableNetworkChangeTelemtry2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RaknetBandwidthInfluxHundredthsPercentageV2",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "DebugRenderingSetDeterministic",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetLoopMs",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "WaitOnRecvFromLoopEndedMS",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "DataSenderMaxJoinBandwidthBps",
+            "value": "222",
+            "type": "int"
+        },
+        {
+            "name": "EnablePercentileTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FaceAnimatorServiceTelemetryIncludeTrackerMode",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GameNetLocalSpaceMaxSendIndex",
+            "value": "100000",
+            "type": "int"
+        },
+        {
+            "name": "DebugVisualizeAllPropertyChanges",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugEnableInterpolationVisualizer",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugGraphicsPreferD3D11FL10",
+            "value": "True",
+            "type": "bool"
+        }
+    ]
+   }
 ]
