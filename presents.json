@@ -115,5 +115,1507 @@
             "type": "bool"
         }
     ]
+  },
+  {
+    "name": "bladeball lagball",
+    "author": "van",
+    "description": "Best lag ball",
+    "flags": [
+        {
+            "name": "MaxProcessPacketsJobScaling",
+            "value": "64",
+            "type": "int"
+        },
+        {
+            "name": "TaskSchedulerMaxNumOfJobs",
+            "value": "64",
+            "type": "int"
+        },
+        {
+            "name": "VideoMaxNumberOfVideosPlaying",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugFRMOptionalMSAALevelOverride",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "FastGPULightCulling3",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "GraphicsDisableUnalignedDxtGPUNameBlacklist",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "SettingsHubIndependentBackgroundVisibility",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AltTelegrafAddress",
+            "value": "127.0.0.1",
+            "type": "string"
+        },
+        {
+            "name": "AssetPreloadingIXP",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DirectionalAttenuationMaxPoints",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AdaptiveScrollingFrameOnServer",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "UserHideCharacterParticlesInFirstPerson",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TargetTimeDelayFacctorTenths",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfDataCoreCategoryTimersCollection2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PreloadMinimalFonts",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TerrainMaterialTablePre2022",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "name": "DebugCheckRenderThreading",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "VoiceChatTurnOnMuteUnmuteNotificationHack",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableSoundPreloading",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "CodecMaxIncomingPackets",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "NumAssetsMaxToPreload",
+            "value": "2147483647",
+            "type": "int"
+        },
+        {
+            "name": "HttpParallelLimit_RequestExperienceNotificationService",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TerrainOTAMaxTextureSize",
+            "value": "4",
+            "type": "int"
+        },
+        {
+            "name": "ESGamePerfMonitorEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ImproveShiftLockTransition",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "UnifiedLightingBlendZone",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ViewCollisionFadeToBlackInVR",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugFRMQualityLevelOverride",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugOverrideDPIScale",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "WindowsReportAbuseNotification",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TargetRefreshRate",
+            "value": "144",
+            "type": "int"
+        },
+        {
+            "name": "UserEnableCameraToggleNotification",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GamesUrlPath",
+            "value": "/games/",
+            "type": "string"
+        },
+        {
+            "name": "MaxReceiveToDeserializeLatencyMilliseconds",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "MacWebViewTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "WaitOnRecvFromLoopEndedMS",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EngineAPICloudProcessingUseNotificationClient",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuauCodegen",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ChatTranslationEnableSystemMessage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistance",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RenderClampRoughnessMax",
+            "value": "-650",
+            "type": "int"
+        },
+        {
+            "name": "WindowsWebViewTelemetryEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ReportDeviceInfoRollout",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingEnabled9",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnableExperienceNotificationOptInPrompt",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceControlTextureQualityBestUtility",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "TelemetryV2Url",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "FixParticleAttachmentCulling",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfStatsCollection3",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "VertexSmoothingGroupTolerance",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RenderLocalLightUpdatesMax",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "GameNetPVHeaderRotationOrientIdToleranceExponent",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "DebugGraphicsPreferD3D11",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "FRMMinGrassDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketMaxDelayMs",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "BootstrapperTelemetryReportingHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MinimumNumberMechanismsForMT",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "FullscreenTitleBarTriggerDelayMillis",
+            "value": "3600000",
+            "type": "int"
+        },
+        {
+            "name": "FixParticleEmissionBias2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewHumanoidNilCheck",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewLookUpHumanoidByType",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ContentProviderPreloadHangTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TopBarUseNewBadge",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AnimatorThrottleMaxFramesToSkip",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RenderDebugCheckThreading2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnableMeshPreloading2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "MaxFrameBufferSize",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketUnhealthyContEscMsPerSecond",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AMPVerifiedTelemetryPointsHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GraphicsGLEnableHQShadersExclusion",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewRemoveVPFWhenClosed",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderMaxShadowAtlasUsageBeforeDownscale",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceSendMeasurementAPISubdomain",
+            "value": "opt-out",
+            "type": "string"
+        },
+        {
+            "name": "RuntimeMaxNumOfConditions",
+            "value": "20000",
+            "type": "int"
+        },
+        {
+            "name": "AssetPreloading",
+            "value": "2147483647",
+            "type": "int"
+        },
+        {
+            "name": "AnimationClipMemCacheEnabled",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "LightstepHTTPTransportUrlHost",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "CSGDecalOptimizeVB",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AltHttpPointsReporterUrl",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "PerformanceControlFrameTimeMaxUtility",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "VoiceChatRollOffMaxDistance",
+            "value": "300",
+            "type": "int"
+        },
+        {
+            "name": "FixForBulkPresenceNotifications",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FriendRequestNotificationThrottle",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RemovedRbxRenderingPreProcessor",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DisableChromeV3StaticSelfView",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderInitShadowmaps",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PreferredTextSizeSettingBetaFeature",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ToastNotificationsResendDisplayOnInit",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FRMMaxGrassDistance",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AppConfigurationTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ToastNotificationsUpdateEventParams",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableVRFTUXExperienceV2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugAdditionalNumberOfMipsToSkipForNonAlbedoTextures",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CanHideGuiGroupId",
+            "value": "12836673",
+            "type": "int"
+        },
+        {
+            "name": "DebugForceGenerateHSR",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "UserShowGuiHideToggles",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "OptimizeNoCollisionPrimitiveInMidphaseCrash",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RefreshRateLowerBound",
+            "value": "120",
+            "type": "int"
+        },
+        {
+            "name": "InterpolationMinAssemblyCount",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ControlBetaBadgeWithGuac",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewTweaksPass",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugEnableDirectAudioOcclusion2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AudioEnableVolumetricPanningForMeshes",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "V1MenuLanguageSelectionFeaturePerMillageRollout",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableRemoveIsFromToastNotification",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePreferredTextSizeStyleFixesInCaptureMenu",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "BloomFrmCutoff",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "RakNetClockDriftAdjustmentPerPingMillisecond",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "RenderLocalLightUpdatesMin",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewCameraDefaultButtonInViewPort",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TaskSchedulerTargetFps",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "RenderShadowmapBias",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketMinMicroseconds",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugLimitMinTextureResolutionWhenSkipMips",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CodecMaxOutgoingFrames",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "OptimizeClusterCacheAlloc",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "UserFixLoadAnimationError",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingEnabledIXP2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TextureQualityOverrideEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GpuVsCpuBoundTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AssetPreloadingUrlVersionEnabled2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingDoingExperiment2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TextureCompositorLowResFactor",
+            "value": "4",
+            "type": "int"
+        },
+        {
+            "name": "SelfViewAvoidErrorOnWrongFaceControlsParenting",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GameNetPVHeaderLinearVelocityZeroCutoffExponent",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "FixReducedMotionStuckIGM2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnableInGameMenuChrome",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "GuiHidingApiSupport2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDefaultTargetWorldStepsPerFrame",
+            "value": "7500",
+            "type": "int"
+        },
+        {
+            "name": "CrashUploadToBacktraceMacPlayerToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "EnablePreferredTextSizeScale",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AdServiceEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDisplayFPS",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugSSAOForce",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingDoingExperiment",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL12",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MeshContentProviderForceCacheSize",
+            "value": "268435456",
+            "type": "int"
+        },
+        {
+            "name": "MicroProfilerDpiScaleOverride",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "TerrainMaterialTable2022",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "name": "RenderLocalLightFadeInMs",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetApplicationFeedbackInitialSpeedBPS",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "EnableExperienceNotificationPrompts2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "InterpolationMaxDelayMSec",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AudioUseVolumetricPanning",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RuntimeMaxNumOfSchedulers",
+            "value": "20000",
+            "type": "int"
+        },
+        {
+            "name": "AnimationLodFacsDistanceMax",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TaskSchedulerAutoThreadLimit",
+            "value": "16",
+            "type": "int"
+        },
+        {
+            "name": "DebugPerfMode",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RenderGpuTextureCompressor",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RuntimeConcurrency",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "FontSizePadding",
+            "value": "3",
+            "type": "int"
+        },
+        {
+            "name": "EnablePreferredTextSizeGuiService",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugRestrictGCDistance",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetMtuValue2InBytes",
+            "value": "1337",
+            "type": "int"
+        },
+        {
+            "name": "DebugSkipMeshVoxelizer",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "MaxProcessPacketsStepsPerCyclic",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "DisableFeedbackSoothsayerCheck",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableChildrenLockFromLua",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportPreloadingMetrics5",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AMPVerifiedTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ToastNotificationsProtocolEnabled2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "WindowsWebViewTelemetryThrottleHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GameNetPVHeaderTranslationZeroCutoffExponent",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "EnableChildrenLockFromLua2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LocServicePerformanceAnalyticsEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "QuaternionPoseCorrection",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugSkyGray",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TextureQualityOverride",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL34",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugCodegenOptSize",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AXSearchLandingPageIXPEnabled4",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FacialAnimationStreamingServiceUniverseSettingsEnableVideo",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetMinAckGrowthPercent",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "DefaultTimeoutTimeMs",
+            "value": "10000",
+            "type": "int"
+        },
+        {
+            "name": "InterpolationDtLimitForLod",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "VoiceChatMaxRecordedDataDeliveryIntervalMs",
+            "value": "2147483647",
+            "type": "int"
+        },
+        {
+            "name": "AnimationLodFacsVisibilityDenominator",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketHealthyMsPerSecondLimit",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "VoiceChatRollOffMinDistance",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DisableDPIScale",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RuntimeMaxNumOfMutexes",
+            "value": "20000",
+            "type": "int"
+        },
+        {
+            "name": "RakNetPingFrequencyMillisecond",
+            "value": "10",
+            "type": "int"
+        },
+        {
+            "name": "UseVisBugChecks",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePreferredTextSizeSettingInMenus2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfDataSubsystemTimersCollection2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetMtuValue1InBytes",
+            "value": "1396",
+            "type": "int"
+        },
+        {
+            "name": "EnableBetterHapticsResultHandling",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfDataCoreTimersCollection2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "InterpolationNumMechanismsPerTask",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "GameNetPVHeaderRotationalVelocityZeroCutoffExponent",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "EnablePreferredTextSizeStyleFixesInExperienceMenu",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EphemeralCounterInfluxReportingEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CameraMaxZoomDistance",
+            "value": "999999",
+            "type": "int"
+        },
+        {
+            "name": "ShoeSkipRenderMesh",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketMaxFrameMicroseconds",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingHundredthsPercentage",
+            "value": "100000",
+            "type": "int"
+        },
+        {
+            "name": "PhysicsMechanismCacheOptimizeAlloc",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketExcessMicroseconds",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewFixes",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AccelerationTimeThreshold",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AvatarChatIncludeSelfViewOnTelemetry",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PushFrameTimeToHarmony",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "GraphicsGLEnableSuperHQShadersExclusion",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "PreloadTextureItemsOption4",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfAudioCollection",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugRenderingSetDeterministic",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RobloxAnalyticsURL",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "NotificationPluginSignalRReadEvents",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GraphicsCheckComputeSupport",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "MaxFramesToSend",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfRenderStatsCollection2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "StudioWebView2TelemetryHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TouchSenderMaxBandwidthBps",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "TaskSchedulerLimitTargetFpsTo2402",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugGraphics",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetMtuValue3InBytes",
+            "value": "1250",
+            "type": "int"
+        },
+        {
+            "name": "LuaAppEnableParentalControlExperiment",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "OpenCloudV1CreateUserNotificationAsync",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfDataCountersCollection",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewUpdatedCamFraming",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugGraphicsDisableDirect3D11",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "MaquettesFrameRateBufferPercentage",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "FixCountOfUnreadNotificationError",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FixIGMBottomBarVisibility",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SyncWebViewCookieToEngine2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuaAppsEnableParentalControlsTab",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RenderSkipReadingShaderData",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FacialAnimationStreamingServiceUniverseSettingsEnableAudio",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewGetRidOfFalselyRenderedFaceDecal",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "UpdateHTTPCookieStorageFromWKWebView",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetResendRttMultiple",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "PerformanceControlFrameTimeMax",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SelfieViewEnabled",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RuntimeMaxNumOfThreads",
+            "value": "64",
+            "type": "int"
+        },
+        {
+            "name": "RenderNoLowFrmBloom",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "NotificationServiceIsConnectedProperty",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "UITextureMaxUpdateDepth",
+            "value": "-1",
+            "type": "int"
+        },
+        {
+            "name": "NotificationButtonTypeVariantMappingEmphasis",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "VRTouchControllerTransparency",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "AXAdaptiveScrollingJustSelectedMillis",
+            "value": "2000",
+            "type": "int"
+        },
+        {
+            "name": "RobloxGuiBlurIntensity",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FacialAnimationStreamingServiceUserSettingsOptInAudio",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugForceFSMCPULightCulling",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SSAOMipLevels",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SignalRNotificationManagerMaybeStart",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GrassMovementReducedMotionFactor",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "ContentProviderPreloadHangTelemetryHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "UseNotificationsLocalization",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "GraphicsTextureCopy",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "InterpolationAwareTargetTimeLerpHundredth",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "NumFramesAllowedToBeAboveError",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MaxAverageFrameDelayExceedFactor",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetApplicationFeedbackMaxSpeedBPS",
+            "value": "2139999999",
+            "type": "int"
+        },
+        {
+            "name": "RobloxAnalyticsSubDomain",
+            "value": "opt-out",
+            "type": "string"
+        },
+        {
+            "name": "ConnectionMTUSize",
+            "value": "1200",
+            "type": "int"
+        },
+        {
+            "name": "RakNetDatagramMessageIdArrayLength",
+            "value": "8192",
+            "type": "int"
+        },
+        {
+            "name": "ActionStationDebounceTime",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "NumFramesToCaptureCallStack",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "ClientPacketHealthyAllocationPercent",
+            "value": "100",
+            "type": "int"
+        },
+        {
+            "name": "TimestepArbiterThresholdCFLThou",
+            "value": "300",
+            "type": "int"
+        },
+        {
+            "name": "ToastNotificationsReceivedAndDismissedSignals",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RakNetLoopMs",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "WebviewUrlAllowlist",
+            "value": "",
+            "type": "string"
+        },
+        {
+            "name": "EnablePreferredTextSizeStyleFixesInPlayerList",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "TaskSchedulerThreadMin",
+            "value": "3",
+            "type": "int"
+        },
+        {
+            "name": "AudioToggleVolumetricPanning",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugTextureManagerSkipMips",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnablePerfDataGatherTelemetry2",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "MaxProcessPacketsStepsAccumulated",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "RuntimeMaxNumOfLatches",
+            "value": "20000",
+            "type": "int"
+        },
+        {
+            "name": "ClientLightingTechnologyChangedTelemetryHundredthsPercent",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingHundredthsPercentage2",
+            "value": "100000",
+            "type": "int"
+        },
+        {
+            "name": "LightstepToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "AudioEnableVolumetricPanningForPolys",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "VoiceChatRollOffMode",
+            "value": "2",
+            "type": "int"
+        },
+        {
+            "name": "InExperienceUpsellSelfViewFix",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "DebugDeterministicParticles",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "CSGLevelOfDetailSwitchingDistanceL23",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "HandleAltEnterFullscreenManually",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "EnableTexturePreloading",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SimOptimizeSetSize",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugPauseVoxelizer",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "AnimationLodFacsDistanceMin",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuaAppEnableToastNotificationsCoreScripts4",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TerrainArraySliceSize",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "SelfViewMoreNilChecks",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "TeleportClientAssetPreloadingEnabledIXP",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "DebugForceMSAASamples",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "BrowserTrackerIdTelemetryEnabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "FixExitDialogBlockVRView",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "RenderLegacyShadowsQualityRefactor",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "SmoothTerrainPhysicsCacheSize",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "EnableBubbleChatFromChatService",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "LuaAppGamesPagePreloadingDisabled",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "UserSoundsUseRelativeVelocity2",
+            "value": "True",
+            "type": "bool"
+        },
+        {
+            "name": "CrashUploadToBacktraceWindowsPlayerToken",
+            "value": "null",
+            "type": "string"
+        },
+        {
+            "name": "HACDPointSampleDistApartTenths",
+            "value": "2147483647",
+            "type": "int"
+        },
+        {
+            "name": "StartupInfluxHundredthsPercentage",
+            "value": "False",
+            "type": "bool"
+        },
+        {
+            "name": "HighlightOutlinesOnMobile",
+            "value": "True",
+            "type": "bool"
+        }
+    ]
   }
 ]
